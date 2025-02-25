@@ -104,6 +104,7 @@
 	greyscale_config_worn = /datum/greyscale_config/buttondown_vicvest/worn
 	greyscale_config_worn_digi = /datum/greyscale_config/buttondown_vicvest/worn/digi
 	greyscale_colors = "#8b2c2c#222227#222227#fbc056"
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 	flags_1 = IS_PLAYER_COLORABLE_1
 
