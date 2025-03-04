@@ -208,6 +208,7 @@
 	)
 	playsound(carp_user, SFX_BULLET_MISS, 75, TRUE)
 	hitting_projectile.firer = carp_user
+	carp_user.apply_damage(max(13, adjusted_damage), damage_type = STAMINA,)
 	hitting_projectile.set_angle(rand(0, 360))//SHING
 	return COMPONENT_BULLET_PIERCED
 
