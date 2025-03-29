@@ -131,6 +131,8 @@
 			continue
 		if(possible_target.current.stat == DEAD)
 			continue
+		if (!opt_in_disabled && player.mind?.get_effective_opt_in_level() > OPT_IN_YES_KILL)
+			continue
 
 		valid_targets += possible_target
 
