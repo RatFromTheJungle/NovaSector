@@ -10,13 +10,12 @@
 
 
 /datum/quirk/item_quirk/permit/add_unique(client/client_source)
-	give_item_to_holder(/obj/item/storage/pill_bottle/sansufentanyl, list(LOCATION_BACKPACK)
+	give_item_to_holder(/obj/item/card/permit_card, list(LOCATION_BACKPACK)
 
 
-/obj/item/card/mining_access_card
-    name = "mining access card"
-    desc = "A small card, that when used on any ID, will add mining access."
-    icon_state = "data_1"
+/obj/item/card/permit_card
+    name = "permit card"
+    desc = "A small card, that when used on any ID, will add a weapons permit."
 
 /obj/item/card/permit_card/afterattack(atom/movable/AM, mob/user, proximity)
     . = ..()
